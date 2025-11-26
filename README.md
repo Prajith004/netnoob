@@ -1,4 +1,4 @@
-# Network & Information Gathering Toolkit
+# Network & Information Gathering Toolkit(NETNOOB)
 A simple Bash script that contains basic Linux network tools, information-gathering tools, and scanning tools.
 
 ## Features
@@ -23,6 +23,22 @@ Make sure these tools exist on your Linux system:
 Install missing tools:
 ```bash
 sudo apt install net-tools dnsutils traceroute nmap curl
+
+
+
+## Installation
+- Download or clone the project
+- Navigate to the folder
+
+1.Make the script executable
+```bash
+chmod +x netnoob.sh
+
+2.Run the script
+```bash
+./netnoob.sh
+
+
 
 
 
